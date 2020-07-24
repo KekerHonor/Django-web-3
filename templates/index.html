@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel = "stylesheet" href = "style.css">
+    
+</head>
+<head>
+    <style>
+    body {margin:0;}
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+    
+    .active {
+      background-color: #4CAF50;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <ul>
+      <li><a class="active" href="http://127.0.0.1:8000/">Main Page</a></li>
+      <li><a href="http://127.0.0.1:8000/post">Post</a></li>
+      <li><a href="http://127.0.0.1:8000/about">About</a></li>
+    </ul>
+    
+    <div style="padding:20px;margin-top:30px">
+      <h1>Fixed Top Navigation Bar</h1>
+      <h2>Scroll this page to see the effect</h2>
+      <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+    
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+      <p>Some text some text some text some text..</p>
+    </div>
+    
+    </body>
+
+
+    <div id = "div1">
+        <h1>Welcome</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nemo officia eveniet modi vero. Quo cum a, natus unde dolor repellendus, ab corrupti porro officiis laudantium asperiores explicabo, doloremque vero.</p>
+        <button class = "btn btn-1">save</button>
+    </div>
+    <div id = "div2">
+        <button class = "btn btn-1">create</button>
+        <button class = "btn btn-2">delete</button>
+        <button class = "btn btn-2">update</button>
+    </div>
+    <main>main content</main>
+    <aside>sidebar</aside>
+    <footer>footer</footer>
+
+</html>
